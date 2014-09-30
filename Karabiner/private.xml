@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<root>
+	<appdef>
+		<appname>ECLIPSE</appname>
+		<equal>org.eclipse.platform.ide</equal>
+	</appdef>
+	<appdef>
+		<appname>Xcode</appname>
+		<equal>org.apple.dt.Xcode</equal>
+	</appdef>
+	<item>
+		<name>Off Key mapping</name>
+		<identifier>private.app_off_keymapping</identifier>
+		<not>ECLIPSE</not>
+	</item>
+</root>
